@@ -12,3 +12,5 @@ OXIDE: Survival Island v1.17.1179 のアプリ内データから抽出したパ�
 
 ## 再生成
 `tools/` に生成スクリプトがあります。日本語名は `tools/ja.py`、パラメータ名は `tools/ja_keys.py` で編集できます。
+
+https://frost6580.github.io/Oxside-Guide/
