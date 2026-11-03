@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OXIDE 攻略データベース</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <button id="menuBtn" class="menu-btn" aria-label="メニュー">☰</button>
+  <a href="#/" class="logo">OXIDE<span>攻略DB</span></a>
+  <div class="search-wrap">
+    <input id="q" type="search" placeholder="アイテム・素材・モブを検索(日本語/英語/内部名)" autocomplete="off">
+    <div id="suggest" class="suggest"></div>
+  </div>
+  <span class="ver" id="ver"></span>
+</header>
+<div class="layout">
+  <nav id="nav" class="nav">
+    <a href="#/">ホーム</a>
+    <div class="nav-h">アイテム</div>
+    <a href="#/items">アイテム一覧</a>
+    <a href="#/materials">素材・資源</a>
+    <a href="#/craft">クラフトレシピ</a>
+    <a href="#/recycle">リサイクル</a>
+    <a href="#/smelt">焼成・燃料</a>
+    <a href="#/food">消耗品・回復</a>
+    <div class="nav-h">戦闘</div>
+    <a href="#/weapons">銃器</a>
+    <a href="#/melee">近接・その他武器</a>
+    <a href="#/mods">武器MOD</a>
+    <a href="#/armor">防具・防護値</a>
+    <div class="nav-h">進行</div>
+    <a href="#/tech">テックツリー</a>
+    <a href="#/levels">プレイヤーレベル</a>
+    <a href="#/quests">クエスト・ミッション</a>
+    <div class="nav-h">ワールド</div>
+    <a href="#/mobs">モブ(動物・NPC)</a>
+    <a href="#/loot">ルートテーブル</a>
+    <a href="#/spawns">資源スポーン</a>
+    <a href="#/world">ワールド・イベント設定</a>
+    <a href="#/biome">バイオーム照明</a>
+    <div class="nav-h">その他</div>
+    <a href="#/skins">スキン</a>
+  </nav>
+  <main id="main"></main>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
